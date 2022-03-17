@@ -29,7 +29,7 @@ Skills
 ***
 | Skills |  HTML |  CSS  |     JS     |
 |:------:|:-----:|:-----:|:----------:|
-|  Level | Basic | Basic | elementary |
+|  Level | Basic | Basic | Elementary |
 ***
 ## Code example ##
 ***
