@@ -25,7 +25,7 @@ opportunities in this area for personal growth.
 
 So my immediate goal at front-end way is graduate Rsschool successfully and became a Junior Software engiheer.
 ***
-Skills
+## Skills ##
 ***
 | Skills |  HTML |  CSS  |     JS     |
 |:------:|:-----:|:-----:|:----------:|
