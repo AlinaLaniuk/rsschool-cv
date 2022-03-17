@@ -43,3 +43,7 @@ console.log (age)
 ***
 Haven't yet.
 ***
+## Education ##
+***
++ **University**: Belarusian National Technical University, marketing; Belarusian State University, journalism.
++ **Courses**: HTML Academy.
