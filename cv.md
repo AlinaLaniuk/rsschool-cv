@@ -31,3 +31,15 @@ Skills
 |:------:|:-----:|:-----:|:----------:|
 |  Level | Basic | Basic | elementary |
 ***
+## Code example ##
+***
+```
+const currentYear = 2022
+const birthYear = 1993
+const age = currentYear - birthYear
+console.log (age)
+```
+## Experience ##
+***
+Haven't yet.
+***
