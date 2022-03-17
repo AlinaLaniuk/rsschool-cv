@@ -24,3 +24,10 @@ opportunities in this area for personal growth.
 + *Flexible.* The best demonstration of my ability to successfully adapt to change is my career way. I have a good experiense in two different area.
 
 So my immediate goal at front-end way is graduate Rsschool successfully and became a Junior Software engiheer.
+***
+Skills
+***
+| Skills |  HTML |  CSS  |     JS     |
+|:------:|:-----:|:-----:|:----------:|
+|  Level | Basic | Basic | elementary |
+***
