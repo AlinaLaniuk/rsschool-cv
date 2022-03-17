@@ -47,3 +47,9 @@ Haven't yet.
 ***
 + **University**: Belarusian National Technical University, marketing; Belarusian State University, journalism.
 + **Courses**: HTML Academy.
+***
+## Languages ##
+***
+Russian - native speaker.
+
+English - B1.
