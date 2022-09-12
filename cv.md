@@ -6,8 +6,8 @@
 
 ***
 
-+ **Location**: Minsk, Belarus
-+ **Phone**: +375292304588
++ **Location**: Vilnius, Lithuania
++ **Phone**: +37060903937
 + **Email**: alinavoronina16@gmail.com
 + **GitHub**: AlinaLaniuk
 
@@ -20,7 +20,9 @@ I have 3 years of experience in journalism.
 
 I have more than 2 years of experience in marketing.
 
-I haven't any experience in front-end yet. But I'm really want to get it.
+I haven't experience on a real project in front-end yet. But I'm really want to get it.
+
+My code is really bad now (also like my English). But I have a very important achievement: I`ve done this course already and it was the hardest learning in my life.
 
 I'm sure that I can walk through all difficulties at learning way and in the future I will become a highly competent IT professional.
 
@@ -37,26 +39,35 @@ So my immediate goal at front-end way is graduate Rsschool successfully and beca
 ## Skills
 
 ***
-| Skills |  HTML |  CSS  |     JS     |
-|:------:|:-----:|:-----:|:----------:|
-|  Level | Basic | Basic | Elementary |
+| Skills |  HTML |  CSS  |   JS  |   TS  |  Git  | Webpack |
+|:------:|:-----:|:-----:|:-----:|:-----:|:-----:|---------|
+|  Level | Basic | Basic | Basic | Basic | Basic | Basic   |
 ***
 
 ## Code example
 
 ***
 
-```js
-const currentYear = 2022
-const birthYear = 1993
-const age = currentYear - birthYear
-console.log (age)
+```TS
+async getWordsInfo(group: number, page: number) {
+    const userInfo = getAutentificationInfo();
+    const wordsInfoForNotAutorizated = await (await fetch(`${API_URL}words?group=${group}&page=${page}`)).json();
+    if (userInfo && isAuthorized && group === 6) {
+      const wordsInfoForMyWordPage = await agregationAPI.getAllAgregations({ wordsPerPage: '4500', filter: JSON.stringify({ $and: [{ 'userWord.difficulty': 'hard', 'userWord.optional.isLearned': false }] }) });
+      return wordsInfoForMyWordPage;
+    }
+    if (userInfo && isAuthorized) {
+      const wordsInfoForAutorizated = await agregationAPI.getAllAgregations({ group: `${group}`, page: `${page}`, wordsPerPage: '20' });
+      return wordsInfoForAutorizated;
+    }
+    return wordsInfoForNotAutorizated;
+  }
 ```
 
 ## Experience
 
 ***
-Haven't yet.
+Haven't yet on a real project.
 ***
 
 ## Education
@@ -64,7 +75,7 @@ Haven't yet.
 ***
 
 + **University**: Belarusian National Technical University, marketing; Belarusian State University, journalism.
-+ **Courses**: HTML Academy.
++ **Courses**: HTML Academy, RS2022Q1.
 
 ***
 
